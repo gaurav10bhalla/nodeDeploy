@@ -5,5 +5,13 @@
 
     <body>
         <h1>Welcome to Hello App</h1>
+        <script>
+            $.ajax({
+                'url' : 'https://bhalla.herokuapp.com/json',
+                'success' : function(data){
+                    alert(data);
+                }
+            })
+        </script>
     </body>
 </html>
